@@ -7,24 +7,31 @@
 }
 
 .left-side {
-    width: 38%;
-    position: absolute;
-    left: 0px;
-    top: 0px;
     height: 100%;
-    background-color: green;
+    width: 42%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    left: 0;
+    background-color: aqua;
 }
 
 .right-side {
-    width: 62%;
-    position: absolute;
-    right: 0px;
-    top: 0px;
+    height: 100%;
+    width: 58%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    right: 0;
     background-color: whitesmoke;
 }
 
 .titles {
-    margin: 180px 50px 60px;
+    margin: 100px 50px 60px;
 }
 
 fieldset {
