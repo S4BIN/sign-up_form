@@ -1,117 +1,115 @@
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,500;1,700&display=swap");
 
 :root {
-    font-family: Roboto;
-    margin: 0;
-    padding: 0;
+  --font-family: Roboto;
 }
 
 .left-side {
-    position: fixed;
-    height: 100%;
-    width: 42%;
-    z-index: 1;
-    top: 0;
-    left: 0;
+  position: fixed;
+  height: 100%;
+  width: 42%;
+  z-index: 1;
+  top: 0;
+  left: 0;
 }
 
 .title {
-    position: absolute;
-    top: 30%;
-    width: 100%;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center 
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title .logo {
-    width: 100px;
-    height: auto;
+  width: 100px;
+  height: auto;
 }
 
 h1 {
-    font-family: Major Mono Display;
+  font-family: Major Mono Display;
 }
 
 .left-side img {
-    margin-top: 0;
-    height: 800px;
+  margin-top: 0;
+  height: 800px;
 }
 
 .right-side {
-    height: 100%;
-    width: 58%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-    right: 0;
-    background-color: whitesmoke;
+  height: 100%;
+  width: 58%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  right: 0;
+  background-color: whitesmoke;
 }
 
 .titles {
-    margin: 40px 50px 40px;
+  margin: 40px 50px 40px;
 }
 
 fieldset {
-    border: none;
-    background-color: white;
-    margin-bottom: 40px;
-    box-shadow: 5px 5px 5px 5px grey;
+  border: none;
+  background-color: white;
+  margin-bottom: 40px;
+  box-shadow: 5px 5px 5px 5px grey;
 }
 
 h3 {
-    font-size: x-large;
-    padding-left: 50px;
+  font-size: x-large;
+  padding-left: 50px;
 }
 
 fieldset form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 fieldset form div {
-    margin: 15px 50px ;
+  margin: 15px 50px;
 }
 
 fieldset form div input {
-    padding: 6px 30px 6px;
-    border-radius: 5px;
-    border-style: solid;
-    border-color: rgb(214, 214, 214);
+  padding: 6px 30px 6px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(214, 214, 214);
 }
 
 fieldset form div label {
-    font-size: 13px;
-    color: rgb(49, 49, 49);
+  font-size: 13px;
+  color: rgb(49, 49, 49);
 }
 
 button {
-    border: none;
-    border-radius: 8px;
-    background-color: rgba(42, 104, 42, 0.726);
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 12px 35px 12px;
-    margin-left: 50px;
-    cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(42, 104, 42, 0.726);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 35px 12px;
+  margin-left: 50px;
+  cursor: pointer;
 }
 
 .right-side p {
-    margin-top: 30px;
-    margin-left: 50px;
-    margin-bottom: 25px;
-    font-weight: bold;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 25px;
+  font-weight: bold;
 }
 
 .right-side p a {
-    font-weight: bold;
-    color: green;
+  font-weight: bold;
+  color: green;
 }
